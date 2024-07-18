@@ -55,7 +55,7 @@ func hello(w http.ResponseWriter, r *http.Request) {
 
 func query(city string) (weatherData, error) {
 
-	apiConfig := "e2cb046f5f84d683196c482501f15341"
+	apiConfig := ""
 	// if err != nil {
 	// 	return weatherData{}, err
 	// }
